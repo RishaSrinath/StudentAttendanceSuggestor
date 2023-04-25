@@ -18,7 +18,7 @@ def classes_suggestor(attendance_percentage, total_classes, attended_classes):
     else:
         return "Your attendance is very low. You should attend all the remaining {} classes to improve your attendance.".format(remaining_classes)
 
-# Example usage
+
 total_classes = int(input("Enter the total number of classes: "))
 attended_classes = int(input("Enter the number of classes attended: "))
 
